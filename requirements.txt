@@ -1,0 +1,7 @@
+# Core runs on the Python standard library alone (ast, tokenize).
+scikit-learn>=1.3        # used only by the evaluation harness (metrics)
+
+# Optional deterministic tool layer - auto-detected if installed:
+# ruff, black, mypy, pytest, bandit
+# Optional AI-assisted explanations:
+# anthropic>=0.40
